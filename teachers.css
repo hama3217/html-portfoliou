@@ -1,0 +1,50 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+.nava{
+   display: flex;
+   flex-direction: row;
+   list-style-type: none;
+   justify-content: space-evenly;
+
+}
+.nava li a{
+   text-decoration: none;
+   font-size: 20px;
+   padding:10px 20px  ;
+   transition: 0.1s;
+   color:  black;
+   font-weight: 480;
+   
+}
+.nava li a:hover{
+color: #198754;
+font-weight: bold;
+}
+.nexthead{
+   color: black;
+   font-size: 30px;
+}
+.contact{
+   margin-left:100px;
+   background-color: #198754;
+   border-radius: 20px;
+   font-weight: 600;
+   color: white;
+   padding: 10px 30px;
+   font-size: 18px;
+   transition: 0.4s;
+   box-shadow: none;
+   outline: none;
+}
+.contact:hover{
+   background-color: #0f6b40;
+
+}
+#text1{
+   color: #198754;
+font-weight: bold;
+font-size: 25px;
+
+}
